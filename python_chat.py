@@ -86,6 +86,7 @@ def espera_de_datos():
 def cambio_a_chat():
     while True:
         if kb.is_pressed("t"):
+            os.system("clear")
             chat()
 
 
